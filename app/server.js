@@ -10,7 +10,7 @@ import fs from "fs/promises";
 const {
   WEBFLOW_CLIENT_ID,
   WEBFLOW_SECRET,
-  PORT = 3000,
+  PORT,
   NODE_ENV = "development",
 } = process.env;
 

@@ -37,7 +37,8 @@ A starter project for creating a Webflow Data Client that demonstrates OAuth aut
 
 ## 🔒 Setting Up OAuth
 
-1. Create a tunnel to your local server:
+1. [Create a tunnel to your local server](https://developers.webflow.com/data/docs/getting-started-data-clients#sign-up-for-ngrok):
+   Webflow requires a public URL to redirect to after authentication. If you're running the server locally, you'll need to create a tunnel to your local server.
 
    ```bash
    ngrok http 3000
